@@ -25,4 +25,19 @@
       </v-col>
     </v-row>
   </v-footer>
-</template>
+</template
+
+<script>
+  export default {
+    data: () => ({
+      links: [
+        'Home',
+        'About Us',
+        'Team',
+        'Services',
+        'Blog',
+        'Contact Us',
+      ],
+    }),
+  }
+</script>
