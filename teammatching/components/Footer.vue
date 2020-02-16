@@ -28,6 +28,7 @@
 </template
 
 <script>
+    name:Footer,
   export default {
     data: () => ({
       links: [
