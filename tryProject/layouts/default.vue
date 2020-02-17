@@ -8,7 +8,10 @@
 <script>
 import Nav from "../components/Nav";
 export default {
-  Nav,
+  components:{
+    Nav
+  }
+  
 }
 </script>
 <style>
