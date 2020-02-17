@@ -9,7 +9,6 @@
 
 
 export default {
-    transitions:'bounce',
       head(){
           return{
               title:"About nuxt",
