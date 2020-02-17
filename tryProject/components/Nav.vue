@@ -36,4 +36,18 @@ header{
     color : white;
     font-size: .9rem;
 }
+nav{
+    justify-self: right;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+li a {
+    padding : 1em 2em;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.1)
+}
 </style>
