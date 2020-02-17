@@ -1,7 +1,7 @@
 <template>
     <div>
         <header>
-            <nuxt-link to="/">Nuxty</nuxt-link>
+            <nuxt-link to="/" class="logo">Nuxty</nuxt-link>
             <nav>
                 <ul>
                     <li><nuxt-link to="/">Home</nuxt-link></li>
@@ -25,5 +25,15 @@ header{
     background:rgb(0, 219, 410);
     display:grid;
     grid-template-columns: repeat(2,auto);
+}
+
+.logo, li a {
+    padding : 1em 2em;
+    display:block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color : white;
+    font-size: .9rem;
 }
 </style>
