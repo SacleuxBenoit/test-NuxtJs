@@ -8,7 +8,6 @@
                     <li><nuxt-link to="about">About</nuxt-link></li>
                     <li><nuxt-link to="services">Services</nuxt-link></li>
                     <li><nuxt-link to="contact">Contact</nuxt-link></li>
-
                 </ul>
             </nav>
         </header>
@@ -20,3 +19,7 @@ export default {
     
 }
 </script>
+
+<style>
+
+</style>
