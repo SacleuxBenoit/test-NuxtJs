@@ -9,8 +9,15 @@
 
 
 export default {
-  components: {
+      head(){
+          return{
+              title:"Nuxt Home ",
+              meta:[
+                  {name:'description', content:'this is my Home page'},
+                  {name:'keywords', content:'about nuxt, nuxt infos'},
 
-  }
+              ]
+          }
+      }
 }
 </script>
