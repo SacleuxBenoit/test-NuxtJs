@@ -9,6 +9,15 @@
 
 
 export default {
-   
+      head(){
+          return{
+              title:"About nuxt",
+              meta:[
+                  {name:'description', content:'this is my about description'},
+                  {name:'keywords', content:'about nuxt, nuxt infos'},
+
+              ]
+          }
+      }
 }
 </script>
