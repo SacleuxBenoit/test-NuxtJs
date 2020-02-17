@@ -21,5 +21,9 @@ export default {
 </script>
 
 <style>
-
+header{
+    background:rgb(0, 219, 410);
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+}
 </style>
